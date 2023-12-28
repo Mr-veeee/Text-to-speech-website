@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <img src="Profilea.png" alt="Logo" id="logo">
+        <label for="theme" class="theme">
+            <span class="theme__toggle-wrap">
+                <input id="theme" class="theme__toggle" type="checkbox" role="switch" name="theme" value="dark">
+                <span class="theme__fill"></span>
+                <span class="theme__icon">
+                    <span class="theme__icon-part"></span>
+                    <span class="theme__icon-part"></span>
+                    <span class="theme__icon-part"></span>
+                    <span class="theme__icon-part"></span>
+                    <span class="theme__icon-part"></span>
+                    <span class="theme__icon-part"></span>
+                    <span class="theme__icon-part"></span>
+                    <span class="theme__icon-part"></span>
+                    <span class="theme__icon-part"></span>
+                </span>
+            </span>
+        </label>
+    </header>
+
+    <!-- Main Content -->
+    <div class="content">
+        <h1>Text-To-Speech Converter by Vee</h1>
+        <select name="voice" id="voices">
+            <option value="">Select A Voice</option>
+        </select>
+        <label for="rate">Rate:</label>
+        <input name="rate" type="range" min="0" max="3" value="1" step="0.1">
+        <label for="pitch">Pitch:</label>
+        <input name="pitch" type="range" min="0" max="2" step="0.1">
+        <textarea name="text" placeholder="Start typing...">coded by Mr.Vee</textarea>
+        <button id="stop">Stop</button>
+        <button id="speak">Speak</button>
+    </div>
+
+    <footer>
+        <div class="social-icons">
+          <p>Coded by Vee G</p>
+          <a href="https://github.com/Mr-veeee" target="_blank"><img src="github.png" alt="Github"></a>
+          <a href="https://www.facebook.com/VENKInGUTTULA" target="_blank"><img src="fb.png" alt="Facebook"></a>
+          <a href="https://twitter.com/MrVeeeeG" target="_blank"><img src="twitter.png" alt="Twitter"></a>
+          <a href="https://www.instagram.com/mr_._stoic/" target="_blank"><img src="ins.png" alt="Instagram"></a>
+        </div>
+        
+      </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
